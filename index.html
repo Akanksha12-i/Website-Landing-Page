@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap PROJECT</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+
+    <style>
+        .jumbotron{
+            background-image: url(https://cdn.wallpapersafari.com/77/35/3UXAKy.jpg);
+            text-align: center;
+            margin-top: 50px;
+            color: white !important;
+        }
+        #container{
+            text-align: center;
+        }
+
+        .card-grid{
+            padding-top: 20px;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+
+        .card-img-top{
+            border-radius: 50%;
+        }
+
+        #appstr{
+            width: 200px;
+            border-radius: 2px;
+        }
+
+        #footer{
+            background-color: aqua;
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#jumbotron">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" >About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Download my App</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Email" aria-label="Email">
+              <input class="form-control me-2" type="password" placeholder="password" aria-label="password">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron" id="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+      </div>
+
+       <div id="container">
+        <h1>Why this app is awesome</h1>
+        <p>This app is awesome to use</p>
+    </div>
+
+    <div class="card-grid container" id="about">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="netw.jpeg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="netw.jpeg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="netw.jpeg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+ 
+
+ <div id="footer">
+    <h3>Download this app</h3>
+    <p>Really, why should I download this app?</p>
+    <a href="#"><img src="apst.jpeg" alt="Appstore Image" id="appstr"></a>
+ </div>
+     <!--Optional Javascript-->
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+     integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+ integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" 
+ crossorigin="anonymous"></script>
+  </body>
+  </html>
